@@ -15,6 +15,8 @@
 
 ## Status
 
-- Local source inventory unchanged on this run.
+- Local source inventory updated on this run.
 - Official city pages verified a later 2024 zone-release notice and a 2025 related 지구단위계획 / 실시계획 change notice.
-- Existing extracted markdown remains the latest available corpus for the source set; no new local source file was downloaded in this pass.
+- Confirmed new official notice metadata from 2025-08-27: 광주시 고시 제2025-333호, "도시관리계획(광주역세권지구 지구단위계획) 결정(경미한 변경) 및 실시계획인가(변경) 고시 [광주역세권지구 근린공원2호]".
+- Direct HWP download for that notice was attempted but the attachment URL resolved to an HTML error page, so no new source file was retained in `files/` during this pass.
+- Existing extracted markdown remains the latest available corpus for the original source set.

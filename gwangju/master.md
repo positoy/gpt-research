@@ -8,7 +8,7 @@ This file will integrate the full development history of the Gwangju station-are
 - The first confirmed implementation plan approval is dated 2018-01-04.
 - Later amendments include the 2023-12-26 development plan (12th) and implementation plan (10th) change notice.
 - Construction completion notices and a zone release notice appear in 2024.
-- A later 2025 city notice confirms a further 지구단위계획 / 실시계획 change tied to 근린공원2호 in the broader 광주역세권 area.
+- A later 2025 city notice confirms a further 지구단위계획 / 실시계획 change tied to 근린공원2호 in the broader 광주역세권 area (광주시 고시 제2025-333호, 2025-08-27).
 
 ## Next update targets
 
