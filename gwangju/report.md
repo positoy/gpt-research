@@ -16,5 +16,5 @@
 ## Status
 
 - Local source inventory unchanged on this run.
-- No additional official documents were discovered in the current search pass.
-- Existing extracted markdown remains the latest available corpus for the source set.
+- Official city pages verified a later 2024 zone-release notice and a 2025 related 지구단위계획 / 실시계획 change notice.
+- Existing extracted markdown remains the latest available corpus for the source set; no new local source file was downloaded in this pass.
