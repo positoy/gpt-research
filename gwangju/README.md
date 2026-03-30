@@ -1,34 +1,63 @@
-# Gwangju Research
+# Gwangju Research Workflow
 
-## File organization rules
+## Goal
 
-When a new document is discovered on the internet, record it in `report.md` and save related content in each directory.
+Keep a chronological, document-based record of the Gwangju development project and related planning documents.
 
-For each source document, store:
+## Loop
 
-- Where the document was found
-- Local original file path
-- Extracted PDF text saved as `scripted/{filename}.md` using the same filename as the original file
-- Summarized text saved as `summary/{filename}.md` using the same filename as the original file
+1. Check current status
+   - list existing documents
+   - identify missing stages / versions
+   - note recently added notices or amendments
 
-## Suggested directory layout
+2. Choose the next target
+   - development plan notices
+   - implementation plan notices
+   - completion notices
+   - district unit plan guidelines
+   - related ordinance / boundary / closure notices
 
-- `files/` — original downloaded documents
-- `scripted/` — extracted text from PDFs
-- `summary/` — human-readable summaries
-- `report.md` — master tracking document
+3. Discover documents
+   - municipal notice pages
+   - public land-use / planning portals
+   - official PDFs / HWP files
+   - related press references when needed
 
-## Naming convention
+4. Save originals
+   - store source files in `files/`
+   - use `YYYYMMDD_한글명` filenames when possible
 
-- Keep original filenames when saving derived Markdown files
-- Prefer Korean filenames when the source document uses Korean
-- Use the exact same base filename, changing only the extension to `.md`
+5. Extract Markdown
+   - use `kordoc` for HWP / HWPX / PDF
+   - save as `scripted/{same basename}.md`
 
-## Workflow
+6. Summarize
+   - save concise Korean summary in `summary/{same basename}.md`
+   - focus on what changed and why it matters
 
-1. Discover document
-2. Save original locally
-3. Extract PDF text using OpenClaw's `pdf` tool workflow from the official docs
-4. Write the extracted text into `scripted/`
-5. Write a concise summary into `summary/`
-6. Update `report.md`
+7. Integrate
+   - update `report.md` with document metadata and file paths
+   - maintain `timeline.md` for chronological order
+   - maintain `master.md` for the combined project narrative
+
+8. Select the next target
+   - find missing versions
+   - check for new notices
+   - record the next investigation priority
+
+## Output conventions
+
+- Keep one original file per discovered document.
+- Keep extracted text and summary as separate Markdown files.
+- Preserve the original filename when generating derived files.
+- Prefer exact dates and version numbers in filenames and summaries.
+
+## Project structure
+
+- `files/` — original documents
+- `scripted/` — extracted Markdown
+- `summary/` — document summaries
+- `report.md` — document index
+- `timeline.md` — chronological log
+- `master.md` — integrated research narrative
