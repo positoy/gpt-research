@@ -1,0 +1,14 @@
+{
+  "name": "x-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "collect": "node src/index.js collect",
+    "summarize": "node src/index.js summarize"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
