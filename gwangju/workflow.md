@@ -31,6 +31,30 @@
 - 공식 PDF / HWP / HWPX 문서
 - 필요할 때만 관련 보도자료 참고
 
+### 3-1. 정기 점검 URL
+
+cron job 실행 시마다 아래 URL을 확인해 최근 항목을 탐색한다. 각 URL의 `token` 값은 진입 시점 파라미터일 뿐이므로, 접근 시에는 무시하거나 최신 경로로 재요청한다.
+
+- 고시/공고: `https://www.gjcity.go.kr/portal/saeol/gosi/list.do?mId=0202010000`
+  - 광주시 일반 고시·공고 목록 페이지
+- 고시/입찰정보: `https://www.gjcity.go.kr/portal/saeol/gosi/list.do?seCode=02&mId=0202030000`
+  - 입찰 관련 고시·공고 목록 페이지
+- 계약정보공개/발주계획: `https://www.gjcity.go.kr/portal/nara/plan/list.do?mId=0302010000`
+  - 계약·발주계획 공개 페이지
+- 계약정보공개/조달청입찰정보: `https://www.gjcity.go.kr/portal/nara/bid/list.do?mId=0302020100`
+  - 조달청 연계 입찰정보 페이지
+- 계약정보공개/계약정보: `https://www.gjcity.go.kr/portal/contract/list.do?mId=0302080100`
+  - 계약 내역 공개 페이지
+- 행정정보/도시계획개발: `https://www.gjcity.go.kr/portal/bbs/list.do?ptIdx=29&mId=0301040000`
+  - 도시계획개발 / 지구단위계획 / 개발계획 관련 게시판
+
+점검 원칙:
+
+- 마지막 조회 시점 이후 새 항목이 있는지 확인한다.
+- 새 항목이 있으면 원문을 내려받고, 유의미한지 판단한다.
+- 유의미한 새 문서가 없으면 커밋을 만들지 않는다.
+- 새 내용이 기존 문서의 단순 중복이면 요약만 갱신하거나 기록하지 않는다.
+
 ### 4. 원본 저장
 
 - 원문 파일은 `files/`에 저장
