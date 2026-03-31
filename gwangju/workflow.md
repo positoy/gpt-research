@@ -1,70 +1,70 @@
-# Gwangju Research Workflow
+# 광주 연구 워크플로
 
-## Purpose
+## 목적
 
-Maintain a chronological, document-based record of the Gwangju development project.
+광주 개발사업의 문서들을 시간순으로 축적하고, 연구 기록으로 유지한다.
 
-## Operating Loop
+## 운영 흐름
 
-### 1. Check current status
+### 1. 현재 상태 점검
 
-- List existing documents.
-- Identify missing stages or versions.
-- Note recently added notices, amendments, or completion notices.
+- 기존 문서 목록 확인
+- 누락된 차수 또는 버전 확인
+- 최근 추가된 고시, 변경, 공사완료 공고 확인
 
-### 2. Select the next investigation target
+### 2. 다음 조사 대상 선정
 
-Prioritize:
+우선순위:
 
-- Development plan notices
-- Implementation plan notices
-- Completion notices
-- District unit plan guidelines
-- Related ordinances, closures, or boundary changes
+- 개발계획 고시
+- 실시계획 고시
+- 공사완료 공고
+- 지구단위계획 시행지침
+- 관련 조례, 해제, 경계 변경 고시
 
-### 3. Discover documents
+### 3. 문서 탐색
 
-Use:
+사용 대상:
 
-- Official municipal notice pages
-- Public land-use / planning portals
-- Official PDFs and HWP/HWPX files
-- Related press references only when helpful
+- 공식 지자체 고시 페이지
+- 공공 토지이용 / 도시계획 포털
+- 공식 PDF / HWP / HWPX 문서
+- 필요할 때만 관련 보도자료 참고
 
-### 4. Save originals
+### 4. 원본 저장
 
-- Save source files in `files/`.
-- Prefer `YYYYMMDD_한글명` filenames.
-- Keep one original per document.
+- 원문 파일은 `files/`에 저장
+- 파일명은 가능하면 `YYYYMMDD_한글명` 형식 사용
+- 문서당 원본은 하나씩 유지
 
-### 5. Extract Markdown
+### 5. Markdown 추출
 
-- Use `kordoc` for HWP, HWPX, and PDF whenever possible.
-- Save extracted text to `scripted/{same basename}.md`.
-- Preserve structure such as headings, tables, and numbering.
+- HWP, HWPX, PDF는 가능하면 `kordoc` 사용
+- 추출본은 `scripted/{원본과 동일한 이름}.md`에 저장
+- 제목, 표, 번호 체계를 최대한 보존
 
-### 6. Summarize
+### 6. 요약
 
-- Save concise Korean summaries to `summary/{same basename}.md`.
-- Focus on what changed, why it matters, and how it fits the chronology.
+- 간단한 한국어 요약을 `summary/{원본과 동일한 이름}.md`에 저장
+- 무엇이 바뀌었는지, 왜 중요한지, 연표에서 어디에 놓이는지에 집중
 
-### 7. Integrate
+### 7. 통합
 
-Update:
+다음을 갱신한다:
 
-- `report.md` for file inventory and paths
-- `timeline.md` for chronological ordering
-- `master.md` for the integrated research narrative
+- `report.md` — 파일 목록과 경로
+- `timeline.md` — 시간순 정리
+- `master.md` — 통합 연구 서술
 
-### 8. Decide the next target
+### 8. 다음 대상 결정
 
-- Find missing versions.
-- Check for new notices.
-- Record the next investigation priority.
+- 빠진 버전 찾기
+- 새 고시 확인
+- 다음 조사 우선순위 기록
 
-## Output Conventions
+## 출력 원칙
 
-- Keep raw documents, extracted text, and summaries separate.
-- Preserve original filenames in derived Markdown.
-- Use exact dates and version numbers whenever available.
-- Keep the master narrative aligned with the timeline.
+- 원문, 추출본, 요약본은 분리해서 유지한다.
+- 파생 Markdown은 원본 파일명을 따라간다.
+- 가능한 한 정확한 날짜와 차수 정보를 반영한다.
+- 통합 서술은 연표와 어긋나지 않게 유지한다.

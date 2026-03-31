@@ -1,63 +1,63 @@
-# Gwangju Research Workflow
+# 광주 연구 워크플로
 
-## Goal
+## 목표
 
-Keep a chronological, document-based record of the Gwangju development project and related planning documents.
+광주 개발사업과 관련 문서를 시간순으로 정리해, 문서 기반의 연구 기록을 유지한다.
 
-## Loop
+## 흐름
 
-1. Check current status
-   - list existing documents
-   - identify missing stages / versions
-   - note recently added notices or amendments
+1. 현재 상태 점검
+   - 기존 문서 목록 확인
+   - 누락된 차수 / 버전 확인
+   - 새로 추가된 고시·변경사항 확인
 
-2. Choose the next target
-   - development plan notices
-   - implementation plan notices
-   - completion notices
-   - district unit plan guidelines
-   - related ordinance / boundary / closure notices
+2. 다음 조사 대상 선정
+   - 개발계획 고시
+   - 실시계획 고시
+   - 공사완료 공고
+   - 지구단위계획 시행지침
+   - 관련 조례 / 경계 / 해제 고시
 
-3. Discover documents
-   - municipal notice pages
-   - public land-use / planning portals
-   - official PDFs / HWP files
-   - related press references when needed
+3. 문서 탐색
+   - 지자체 고시·공고 페이지
+   - 공공 토지이용·도시계획 포털
+   - 공식 PDF / HWP 문서
+   - 필요할 때만 관련 보도자료 참고
 
-4. Save originals
-   - store source files in `files/`
-   - use `YYYYMMDD_한글명` filenames when possible
+4. 원본 저장
+   - 원문 파일을 `files/`에 저장
+   - 가능하면 `YYYYMMDD_한글명` 형식 사용
 
-5. Extract Markdown
-   - use `kordoc` for HWP / HWPX / PDF
-   - save as `scripted/{same basename}.md`
+5. Markdown 추출
+   - HWP / HWPX / PDF는 `kordoc` 우선 사용
+   - `scripted/{원본과 동일한 이름}.md`로 저장
 
-6. Summarize
-   - save concise Korean summary in `summary/{same basename}.md`
-   - focus on what changed and why it matters
+6. 요약 작성
+   - `summary/{원본과 동일한 이름}.md`에 간단한 한국어 요약 저장
+   - 무엇이 바뀌었고 왜 중요한지에 집중
 
-7. Integrate
-   - update `report.md` with document metadata and file paths
-   - maintain `timeline.md` for chronological order
-   - maintain `master.md` for the combined project narrative
+7. 통합
+   - `report.md`에 문서 메타데이터와 경로 반영
+   - `timeline.md`로 시간순 정리
+   - `master.md`로 전체 서술 통합
 
-8. Select the next target
-   - find missing versions
-   - check for new notices
-   - record the next investigation priority
+8. 다음 대상 선정
+   - 빠진 버전 찾기
+   - 새 고시 여부 확인
+   - 다음 조사 우선순위 기록
 
-## Output conventions
+## 출력 원칙
 
-- Keep one original file per discovered document.
-- Keep extracted text and summary as separate Markdown files.
-- Preserve the original filename when generating derived files.
-- Prefer exact dates and version numbers in filenames and summaries.
+- 원본 문서는 하나당 하나만 유지한다.
+- 추출본과 요약본은 별도 Markdown 파일로 둔다.
+- 파생 파일은 원본 파일명 기반으로 만든다.
+- 가능한 한 정확한 날짜와 차수 정보를 파일명과 요약에 남긴다.
 
-## Project structure
+## 디렉토리 구조
 
-- `files/` — original documents
-- `scripted/` — extracted Markdown
-- `summary/` — document summaries
-- `report.md` — document index
-- `timeline.md` — chronological log
-- `master.md` — integrated research narrative
+- `files/` — 원본 문서
+- `scripted/` — 추출된 Markdown
+- `summary/` — 문서 요약
+- `report.md` — 문서 인덱스
+- `timeline.md` — 시간순 기록
+- `master.md` — 통합 연구 서술

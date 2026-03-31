@@ -1,18 +1,18 @@
-# Gwangju Development Master Narrative
+# 광주 개발사업 통합 서술
 
-This file will integrate the full development history of the Gwangju station-area project.
+이 문서는 광주역세권 개발사업의 전체 이력을 하나의 흐름으로 통합한다.
 
-## Current state
+## 현재 상태
 
-- The project has a documented initial designation and development plan.
-- The first confirmed implementation plan approval is dated 2018-01-04.
-- Later amendments include the 2023-12-26 development plan (12th) and implementation plan (10th) change notice.
-- Construction completion notices and a zone release notice appear in 2024.
-- A later 2025 public notice and final city notice confirm a further 지구단위계획 / 실시계획 change tied to 근린공원2호 in the broader 광주역세권 area: 광주시 공고 제2025-2234호 (2025-08-04) and 광주시 고시 제2025-333호 (2025-08-27).
+- 사업의 초기 지정 및 개발계획은 확인되어 있다.
+- 최초 확인된 실시계획 인가는 2018-01-04이다.
+- 이후 2023-12-26 개발계획(12차) 및 실시계획(10차) 변경 고시가 있다.
+- 2024년에는 공사완료 공고와 구역해제 고시가 이어진다.
+- 2025년에는 광주역세권 지구단위계획 / 실시계획 변경과 관련된 추가 공고 및 고시가 확인된다: 광주시 공고 제2025-2234호(2025-08-04), 광주시 고시 제2025-333호(2025-08-27).
 
-## Next update targets
+## 다음 갱신 대상
 
-- Fill any missing development-plan amendment notices.
-- Fill any missing implementation-plan amendment notices.
-- Add document-level summaries after each new source is added.
-- Keep the master narrative aligned with `timeline.md`.
+- 누락된 개발계획 변경 고시 보완
+- 누락된 실시계획 변경 고시 보완
+- 새 원문이 추가될 때마다 문서별 요약 반영
+- 통합 서술은 `timeline.md`와 일치하도록 유지
